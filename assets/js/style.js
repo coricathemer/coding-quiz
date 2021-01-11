@@ -32,6 +32,10 @@ var questionsArray = [
     correctAnswer: "",
     },
 ]
+var questionNumber = -1;
+var time = 60;
+
+
 var startFunction = function(){
     // this is working
     console.log("you ran start function")
@@ -116,4 +120,4 @@ var submitAnswer = function( string ){
     } else { //last question has been answered.
       endQuiz()
     }
-  } 
+} 
